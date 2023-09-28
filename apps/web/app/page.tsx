@@ -1,7 +1,11 @@
+import Footer from "~/components/Footer";
+import Navbar from "~/components/home/Navbar";
+
 export default function Page(): JSX.Element {
   return (
-    <>
-      <h1>Page</h1>
-    </>
+    <div>
+      <Navbar />
+      <Footer />
+    </div>
   );
 }

@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+ db :
+  image: postgres:latest
+  container_name: PostgresAirBnb
+  environment:
+   - POSTGRES_USER=postgres
+   - POSTGRES_PASSWORD=airbnb    
+  ports:
+   - "5432:5432"

@@ -1,7 +1,7 @@
 import Footer from "~/components/Footer";
 import Navbar from "~/components/home/Navbar";
 
-export default function Page(): JSX.Element {
+function Home(): JSX.Element {
   return (
     <div>
       <Navbar />
@@ -9,3 +9,5 @@ export default function Page(): JSX.Element {
     </div>
   );
 }
+
+export default Home;

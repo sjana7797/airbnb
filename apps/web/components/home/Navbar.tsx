@@ -3,6 +3,7 @@ import React from "react";
 import { FiGlobe } from "react-icons/fi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import Image from "next/image";
+import Link from "next/link";
 
 type Props = {};
 
@@ -11,9 +12,9 @@ function Navbar({}: Props) {
     <header className="w-full flex flex-col justify-center transition-all duration-300 h-20 border-b border-b-gray-200">
       <div className="flex items-center justify-between px-20">
         <div className="flex-grow basis-0">
-          <div className="w-max cursor-pointer">
+          <Link href="/" className="w-max cursor-pointer">
             <Airbnb className="w-[102px] h-8 block" />
-          </div>
+          </Link>
         </div>
         <nav className="flex-grow basis-0">
           <ul className="flex items-center justify-end gap-6 font-medium">

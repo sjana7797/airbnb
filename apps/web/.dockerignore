@@ -1,0 +1,5 @@
+nodes_modules
+.next
+.turbo
+.env
+README.md

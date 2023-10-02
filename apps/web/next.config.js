@@ -2,4 +2,5 @@
 module.exports = {
   reactStrictMode: true,
   transpilePackages: ["ui", "database"],
+  output: "standalone",
 };
